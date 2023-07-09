@@ -1,0 +1,15 @@
+use lab2;
+set sql_safe_updates=0;
+delete from clerk;
+delete from department;
+insert into department value(1, '中商分行1', 111111111111111111, '中商1霸', '统计');
+insert into department value(2, '中商分行2', 222222222222222222, '中商2霸', '统计');
+insert into department value(3, '中商分行3', 333333333333333333, '中商3霸', '统计');
+insert into department value(4, '中商分行4', 444444444444444444, '中商4霸', '统计');
+insert into department value(5, '中商分行5', 555555555555555555, '中商5霸', '统计');
+insert into department value(6, '中商分行6', 666666666666666666, '中商6霸', '统计');
+insert into department value(7, '中商分行7', 777777777777777777, '中商7霸', '统计');
+insert into department value(8, '中商分行8', 888888888888888888, '中商8霸', '统计');
+insert into department value(9, '中商分行9', 999999999999999999, '中商9霸', '统计');
+insert into department value(10, '中商分行10', 101010101010101010, '中商10霸', '统计');
+SELECT * FROM lab2.department;

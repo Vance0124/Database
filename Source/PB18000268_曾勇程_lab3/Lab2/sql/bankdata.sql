@@ -1,0 +1,14 @@
+use lab2;
+set sql_safe_updates=0;
+delete from bank;
+insert into bank value('中商分行1', '合肥', 100000);
+insert into bank value('中商分行2', '北京', 100000);
+insert into bank value('中商分行3', '上海', 100000);
+insert into bank value('中商分行4', '杭州', 100000);
+insert into bank value('中商分行5', '天津', 100000);
+insert into bank value('中商分行6', '海南', 100000);
+insert into bank value('中商分行7', '深圳', 100000);
+insert into bank value('中商分行8', '广州', 100000);
+insert into bank value('中商分行9', '呼和浩特', 100000);
+insert into bank value('中商分行10', '宁波', 100000);
+SELECT * FROM lab2.bank;

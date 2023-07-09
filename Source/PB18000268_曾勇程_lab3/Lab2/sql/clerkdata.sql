@@ -1,0 +1,14 @@
+use lab2;
+set sql_safe_updates=0;
+delete from clerk;
+insert into clerk value(111111111111111111, 1, '天霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(222222222222222222, 2, '地霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(333333333333333333, 3, '妖霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(444444444444444444, 4, '魔霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(555555555555555555, 5, '仙霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(666666666666666666, 6, '人霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(777777777777777777, 7, '黑霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(888888888888888888, 8, '神霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(999999999999999999, 9, '丑霸', 178771818, '合肥', '2021.1.11');
+insert into clerk value(101010101010101010, 10, '帅霸', 178771818, '合肥', '2021.1.11');
+SELECT * FROM lab2.clerk;

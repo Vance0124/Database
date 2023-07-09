@@ -1,0 +1,16 @@
+use lab2;
+set sql_safe_updates=0;
+delete from lab2.payout;
+delete from lab2.loans;
+insert into Loans value('中商分行1', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行3', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行4', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行5', 2, 1000, '2021-1-1');
+insert into Loans value('中商分行6', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行7', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行8', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行9', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行10', 2, 1000, '2020-1-1');
+insert into Loans value('中商分行1', 5, 1000, '2020-1-1');
+insert into Loans value('中商分行2', 1, 1000, '2020-1-1');
+SELECT * FROM lab2.loans;
